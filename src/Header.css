@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+/* left style */
+.header__left{
+    margin-left: 15px;
+    width: 26%;
+    padding: 2px;
+}
+.header__leftIcon{
+    font-size: 25px !important;
+    cursor: pointer;
+}
+.header__logo{
+    height: 25px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.header__logoLink{
+    margin-left: 20px;
+    padding-top: 8px;
+}
+
+/* Input style */
+.header__input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    width: 46%;
+    margin: 0;
+}
+.header__input > input{
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 35px;
+    font-size: 17px;
+}
+.header__SearchLink{
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    padding: 3px 0px;
+}
+.header__inputButton{
+    width: 50px !important;
+    font-size: 27px !important;
+    color: rgb(161, 161, 161);
+    cursor: pointer;
+}
+
+
+/* right style */
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 40px;
+    width: 28%;
+}
+.header__icons{
+    font-size: 26px !important;
+    margin-right: 20px;
+    cursor: pointer;
+}
